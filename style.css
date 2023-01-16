@@ -1,4 +1,4 @@
-body {
+/* body {
     margin: 0;
     padding: 0;
     background: #FFF;
@@ -16,15 +16,6 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
-}
-
-#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -101,6 +92,7 @@ a:hover {
 
 .d-bloc {
     color: rgba(255, 255, 255, .7);
+
 }
 
 .d-bloc button:hover {
@@ -1039,4 +1031,4 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
-}
+} */
