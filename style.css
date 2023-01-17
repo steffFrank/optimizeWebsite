@@ -1,10 +1,25 @@
 :root {
     --color-primary: #F3976C;
     --color-secondary: rgb(47, 45, 45);
+    --color-tertiazry: #364577;
 }
 
 body {
     font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.5rem;
 }
 
 .header__logo {
@@ -30,9 +45,7 @@ body {
 
 .main__title {
     margin: 20px 0 10px;
-    font-size: 2rem;
     color:var(--color-primary);
-    font-weight: bolder;
 }
 
 .main .btn {
@@ -52,4 +65,17 @@ body {
 .btn:hover {
     background-color:--color-secondary;
     color: var(--color-primary);
+}
+
+
+/* Services */
+
+.services {
+    padding: 50px 0;
+}
+
+.icons {
+    font-size: 60px;
+    color: var(--color-tertiazry);
+    margin: 24px 0 14px;
 }
