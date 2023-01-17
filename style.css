@@ -32,7 +32,7 @@ h3 {
     padding: 0;
 }
 
-.main__texture {
+.texture-paper {
     width: 100%;
     padding: 40px 0;
     background: url("img/texture-paper.png");
@@ -63,7 +63,7 @@ h3 {
 }
 
 .btn:hover {
-    background-color:--color-secondary;
+    background-color:var(--color-secondary);
     color: var(--color-primary);
 }
 
@@ -114,4 +114,25 @@ cite {
 }
 cite span:last-child {
     font-size: 1rem;
+}
+
+/* Vision */
+.vision .container {
+    background: url("img/image-de-presentation.bmp");
+    background-size: cover;
+    padding: 5% 0;
+}
+
+.vision .texture-paper {
+    width: min(95%, 600px);
+    background-color: rgba(45, 47, 45, 0.5);
+}
+
+.vision p {
+    text-align: left;
+}
+
+.vision p:first-child {
+    font-size: 1.4rem;
+    color: var(--color-primary);
 }
