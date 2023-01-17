@@ -1,4 +1,55 @@
+:root {
+    --color-primary: #F3976C;
+    --color-secondary: rgb(47, 45, 45);
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 .header__logo {
     width: 216px;
     height: 40px;
+}
+
+.main {
+    background: url("img/agence-la-panthere.jpg");
+    padding: 0;
+}
+
+.main__texture {
+    width: 100%;
+    padding: 40px 0;
+    background: url("img/texture-paper.png");
+}
+
+.main__logo {
+    width: 100px;
+    height: 100px;
+}
+
+.main__title {
+    margin: 20px 0 10px;
+    font-size: 2rem;
+    color:var(--color-primary);
+    font-weight: bolder;
+}
+
+.main .btn {
+    margin: 22px 5px 5px 0;
+}
+
+.btn {
+    padding: 12px 28px;
+    background-color: var(--color-primary);
+    color: rgb(47, 45, 45);
+    text-transform: uppercase;
+    border-radius: 40px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color:--color-secondary;
+    color: var(--color-primary);
 }
