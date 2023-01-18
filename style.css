@@ -1,6 +1,6 @@
 :root {
     --color-primary: #F3976C;
-    --color-secondary: rgb(47, 45, 45);
+    --color-secondary: #2F2D2D;
     --color-tertiazry: #364577;
 }
 
@@ -29,10 +29,6 @@ h3 {
     height: 40px;
 }
 
-/* .main, .header {
-    width: min(95vw, 1440px);
-    margin: auto;
-} */
 
 @media screen and (min-width: 992px) {
     .navbar-nav {
@@ -173,4 +169,25 @@ cite span:last-child {
 
 .form__button:hover {
     border: 2px solid var(--color-primary);
+}
+
+
+/* Footer  */
+
+.footer {
+    background-color: var(--color-primary);
+    font-size: 0.9rem;
+}
+
+.footer h2{
+    font-size: 1.3rem;
+}
+
+.footer a {
+    color: var(--color-secondary);
+}
+
+.social{
+    width: 1.5rem;
+    margin-right: 10px;
 }
