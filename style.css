@@ -27,11 +27,25 @@ h3 {
     height: 40px;
 }
 
+.main, .header {
+    width: min(95vw, 1440px);
+    margin: auto;
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-nav {
+        margin-left: 85%;
+    }
+
+}
 .main {
     background: url("img/agence-la-panthere.jpg");
     padding: 0;
 }
 
+.main__subtitle {
+    font-size: 1.2rem;
+}
 .texture-paper {
     width: 100%;
     padding: 40px 0;
