@@ -43,7 +43,7 @@ h3 {
     }
 }
 .main {
-    background: url("img/agence-la-panthere.jpg");
+    background: url("img/agence-la-panthere.webp");
     padding: 0;
 }
 
@@ -53,7 +53,7 @@ h3 {
 .texture-paper {
     width: 100%;
     padding: 40px 0;
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
 }
 
 .logo-container {
@@ -140,7 +140,7 @@ cite span:last-child {
 
 /* Vision */
 .vision .container {
-    background: url("img/image-de-presentation.bmp");
+    background: url("img/image-de-presentation.webp");
     background-size: cover;
     padding: 5% 0;
 }
