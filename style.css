@@ -176,10 +176,9 @@ cite span:last-child {
 
 
 .form {
-    background-color: rgba(45, 47, 45, 0.3);
+    background-color: rgba(45, 47, 45, 0.1);
     padding: 15px 10px;
     border-radius: 3px;
-    /* max-width: 500px; */
 }
 .form .btn-block {
   text-align: center;
