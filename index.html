@@ -191,16 +191,38 @@
 <!-- bloc-4-portfolio END -->
 
 <!-- bloc-5-cta -->
-<section class="cta texture-paper mb-5" id="bloc-5-cta">
-	<h2>Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !</h2>
-	<div class="container ">
+<section class="cta mb-5" id="contact">
+	<h2 class="text-center">Contact</h2>
+	<div class="container">
 		<div class="row">
-			<p class="mg-md text-center">
-				
-			</p>
-			<div class="col-sm-12 text-center">
-				<a href="page2.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contactez-nous</a>
-			</div>
+			<form class="form row g-4 m-auto col-md-7">
+				<div class="mb-4 col-md-7 m-auto">
+					<label for="name" class="form-label">Name</label>
+					<input class="form-control form-control-lg" id="name", name="name" type="text" required aria-required="true" placeholder="Marco Rossi">
+				</div>
+				<div class="mb-4 col-md-7 m-auto">
+					<label for="email"  class="form-label" aria-required="true">Email</label>
+					<input id="email", name="email" type="email" class="form-control form-control-lg" aria-required="true" required placeholder="example@company.fr">
+				</div>
+				<div class="mb-4 col-md-7 m-auto">
+					<label for="choices" class="form-label" >Comment nous avez-vous connu ?</label>
+					<select class="form-select" id="choices" required>
+						<option selected disabled value="">--Choisissez parmi les options suivantes--</option>
+						<option value="friends">Amis</option>
+						<option value="google">En Cherchant sur google</option>
+						<option value="publicite">Une publicite sur youtube</option>
+						<option value="social">Sur des reseau sociaux</option>
+						<option value="other">Autres</option>
+					</select>
+				</div>
+				<div class="mb-4 col-md-7 m-auto">
+					<label for="textarea" class="form-label" >Brief de votre Projet (Ajoutez autant de détails que nécessaire)</label>
+					<textarea class="form-control form-control-lg" id="textarea", name="textarea" type="textarea" aria-required="true" required></textarea>
+				</div>
+				<div class="col-12 btn-block">
+					<button type="submit" class="btn form__button">Envoyez</button>
+				</div>
+			</form>
 		</div>
 	</div>
 </section>

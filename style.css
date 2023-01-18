@@ -152,3 +152,19 @@ cite span:last-child {
 }
 
 /* Realisation */
+
+
+/* Contact */
+
+.form .btn-block {
+    text-align: center;
+}
+
+.form__button {
+    border: 2px solid var(--color-secondary);
+    border-radius: 5px;
+}
+
+.form__button:hover {
+    border: 2px solid var(--color-primary);
+}
