@@ -24,6 +24,13 @@ h3 {
     font-size: 1.5rem;
 }
 
+/* Header  */
+.header {
+    position:sticky;
+    top: 0;
+    z-index: 20;
+    background-color: whitesmoke;
+}
 .header__logo {
     width: 216px;
     height: 40px;
@@ -31,10 +38,9 @@ h3 {
 
 
 @media screen and (min-width: 992px) {
-    .navbar-nav {
-        margin-left: 85%;
+    .navbar-collapse {
+        justify-content: flex-end;
     }
-
 }
 .main {
     background: url("img/agence-la-panthere.jpg");
