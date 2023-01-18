@@ -56,9 +56,13 @@ h3 {
     background: url("img/texture-paper.png");
 }
 
-.main__logo {
+.logo-container {
     width: 100px;
     height: 100px;
+}
+
+.main__logo {
+    width: 100%;
 }
 
 .main__title {
@@ -156,8 +160,9 @@ cite span:last-child {
 }
 
 /* Realisation */
-
-
+.card {
+    width: min(100%, 400px);
+}
 /* Contact */
 
 .cta .texture-paper {
